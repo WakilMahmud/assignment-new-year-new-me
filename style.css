@@ -60,6 +60,62 @@ header {
 	/* border: 2px solid gray; */
 }
 
+/******************************************** Portfolio Section  */
+.portfolio {
+	height: 500px;
+	width: 100%;
+	/* margin: 0 auto; */
+	background: linear-gradient(#e9f1e99c, #f7f2f200, #91c7ca36);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	/* border: 2px solid red; */
+}
+.introduction {
+	height: 300px;
+	width: 30%;
+	text-align: center;
+	/* border: 2px solid rgb(0, 255, 34); */
+}
+.introduction span {
+	color: #f15b22;
+	font-weight: 900;
+	font-size: larger;
+}
+.btn-div {
+	margin-top: 20px;
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+}
+
+.btn {
+	border-radius: 5px;
+	border: none;
+	width: 100px;
+	height: 40px;
+}
+.btn1 {
+	background: orange;
+	color: #151414;
+	font-weight: 700;
+}
+.btn2 {
+	background: rgb(10, 7, 0);
+	color: #faf7f7;
+	font-weight: 700;
+}
+
+.profile-pic {
+	height: 300px;
+	width: 30%;
+	/* border: 2px solid red; */
+}
+.profile-pic img {
+	height: 350px;
+	width: 350px;
+	border-radius: 50%;
+}
 /********************************************* failure section ***********************************/
 .failure {
 	width: 100%;
@@ -67,7 +123,6 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 130px;
 	/* border: 2px solid red; */
 }
 
@@ -127,7 +182,13 @@ header {
 	/* border: 2px solid rgb(110, 106, 106); */
 }
 
+.list-item {
+	display: flex;
+	align-items: center;
+}
+
 .list-icon {
+	margin-right: 2px;
 	color: #16d887;
 }
 

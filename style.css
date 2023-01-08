@@ -60,11 +60,10 @@ header {
 	/* border: 2px solid gray; */
 }
 
-/******************************************** Portfolio Section  */
+/******************************************** Portfolio Section  ************************************/
 .portfolio {
 	height: 500px;
 	width: 100%;
-	/* margin: 0 auto; */
 	background: linear-gradient(#e9f1e99c, #f7f2f200, #91c7ca36);
 	display: flex;
 	justify-content: space-around;
@@ -82,13 +81,13 @@ header {
 	font-weight: 900;
 	font-size: larger;
 }
+
 .btn-div {
 	margin-top: 20px;
 	display: flex;
 	gap: 20px;
 	justify-content: center;
 }
-
 .btn {
 	border-radius: 5px;
 	border: none;
@@ -116,6 +115,7 @@ header {
 	width: 350px;
 	border-radius: 50%;
 }
+
 /********************************************* failure section ***********************************/
 .failure {
 	width: 100%;
@@ -125,13 +125,11 @@ header {
 	align-items: center;
 	/* border: 2px solid red; */
 }
-
 .failure-div {
 	height: 400px;
 	width: 416px;
 	/* border: 2px solid green; */
 }
-
 .failure-img {
 	width: 570px;
 	height: 725px;
@@ -141,25 +139,20 @@ header {
 .failure-title {
 	width: 288px;
 	height: 94px;
-
 	font-weight: 700;
 	font-size: 40px;
 	line-height: 47px;
-
 	color: #151414;
 	margin-bottom: 24px;
 	/* border: 2px solid gray; */
 }
-
 .failure-description {
 	margin-top: 24px;
 	width: 416px;
 	height: 104px;
-
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 26px;
-
 	color: #444343;
 	margin-bottom: 16px;
 	/* border: 2px solid gray; */
@@ -186,7 +179,6 @@ header {
 	display: flex;
 	align-items: center;
 }
-
 .list-icon {
 	margin-right: 2px;
 	color: #16d887;
@@ -199,7 +191,6 @@ header {
 	margin: 100px auto;
 	/* border: 2px solid red; */
 }
-
 .plan-title {
 	width: 100%;
 	height: 47px;
@@ -226,7 +217,6 @@ header {
 	margin-bottom: 25px;
 	/* border: 2px solid green; */
 }
-
 .plan-item-title {
 	font-weight: 700;
 	font-size: 25px;
@@ -234,7 +224,6 @@ header {
 	margin-bottom: 16px;
 	/* border: 2px solid rgb(128, 62, 0); */
 }
-
 .plan-item-description {
 	font-weight: 500;
 	font-size: 20px;
@@ -249,19 +238,12 @@ header {
 	border-radius: 10px;
 	margin: 130px auto;
 	position: relative;
-
-	/* background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%); */
-	/* background-repeat: no-repeat;
-	background-size: cover; */
-	/* border: 2px solid red; */
 }
-
 .contact-section-div img {
 	width: 100%;
 	height: 300px;
 	/* border: 2px solid green; */
 }
-
 .gradient-img {
 	position: absolute;
 	height: 300px;
@@ -270,7 +252,6 @@ header {
 	top: 0;
 	left: 0;
 }
-
 .contact-section-title {
 	width: 459px;
 	height: 94px;
@@ -304,7 +285,6 @@ footer {
 	background: #151414;
 	/* border: 2px solid red; */
 }
-
 .footer-content {
 	width: 80%;
 	margin: 0 auto;
@@ -313,6 +293,7 @@ footer {
 	justify-content: space-between;
 	/* border: 2px solid rgb(200, 218, 203); */
 }
+
 .future {
 	width: 485px;
 	height: 317px;
